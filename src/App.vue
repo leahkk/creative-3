@@ -5,6 +5,9 @@
       <router-link to="/sell">Sell</router-link> |
       <router-link to="/host">Host</router-link>
     </div>
+    <div id="footer">
+      <a href='https://github.com/leahkk/creative-3' target="_blank">GitHub</a>
+    </div>
     <router-view/>
   </div>
 </template>
@@ -29,5 +32,20 @@
 
 #nav a.router-link-exact-active {
   color: #AD0A00;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #731A00;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#footer a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
 </style>
